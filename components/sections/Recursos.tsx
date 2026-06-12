@@ -1,0 +1,62 @@
+'use client';
+
+import { useTranslation } from 'react-i18next';
+import { Github, MessageCircle, ArrowUpRight } from 'lucide-react';
+import Reveal from '@/components/Reveal';
+import { LINKS } from '@/lib/links';
+
+type Item = { title: string; desc: string; link: string };
+
+export default function Recursos() {
+  const { t } = useTranslation();
+  const items = t('recursos.items', { returnObjects: true }) as Item[];
+  const hrefs = [LINKS.github, LINKS.huggingface, null];
+
+  return (
+    <section className="sec" id="recursos">
+      <div className="wrap">
+        <Reveal className="sec-head">
+          <span className="eyebrow">{t('recursos.eyebrow')}</span>
+          <h2>{t('recursos.h2')}</h2>
+          <p>{t('recursos.p')}</p>
+        </Reveal>
+        <div className="infra">
+          {items.map((inf, i) => {
+            const href = hrefs[i];
+            const logo =
+              i === 0 ? (
+                <Github />
+              ) : i === 1 ? (
+                <span style={{ fontSize: 21 }}>🤗</span>
+              ) : (
+                <MessageCircle />
+              );
+            return (
+              <Reveal className="inf" key={i} delay={(i % 3) * 0.06}>
+                <div className="ihead">
+                  <div className="ilogo">{logo}</div>
+                  <h4>{inf.title}</h4>
+                </div>
+                <p>{inf.desc}</p>
+                {href ? (
+                  <a
+                    className="link"
+                    href={href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {inf.link} <ArrowUpRight />
+                  </a>
+                ) : (
+                  <span className="link">
+                    {inf.link} <ArrowUpRight />
+                  </span>
+                )}
+              </Reveal>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+  );
+}

@@ -1,0 +1,191 @@
+{
+  "ui": {
+    "copy": "Copiar",
+    "copied": "¡Copiado!"
+  },
+  "nav": {
+    "recursos": "Recursos",
+    "proyectos": "Proyectos",
+    "flujo": "Flujo de trabajo",
+    "reuniones": "Reuniones",
+    "guias": "Guías",
+    "github": "GitHub",
+    "nirvai": "Abrir Nirvai",
+    "join": "Registro →"
+  },
+  "hero": {
+    "eyebrow": "Comisión OpenSource LATAM · Centro del equipo",
+    "title_line1": "Todo el trabajo de",
+    "title_line2_pre": "la comisión, en ",
+    "title_latam": "un solo lugar",
+    "sub": "Enlaces, proyectos, flujo de trabajo, reuniones y guías para Open Experts y colaboradores de la Comisión OpenSource LATAM. Lo que necesitas para construir y reportar.",
+    "cta_projects": "Ver proyectos en Nirvai",
+    "cta_workflow": "Cómo trabajamos",
+    "meta": {
+      "leader_k": "Líder",
+      "leader_v": "Benjamin González",
+      "leader_org": "· Nirvai",
+      "cadence_k": "Reuniones",
+      "cadence_v": "cada 7–14 días",
+      "report_k": "Reporte",
+      "report_v": "semanal",
+      "report_note": "· en Nirvai",
+      "project_k": "Proyecto activo",
+      "project_v": "GRAIL"
+    }
+  },
+  "recursos": {
+    "eyebrow": "01 — Recursos",
+    "h2": "Cuentas y canales oficiales",
+    "p": "Los espacios donde vive el trabajo de la comisión. Públicos para la comunidad, salvo el canal interno.",
+    "items": [
+      {
+        "title": "GitHub Organization",
+        "desc": "Repositorios de código, issues y proyectos de la comisión, abiertos públicamente.",
+        "link": "Abrir organización"
+      },
+      {
+        "title": "Hugging Face",
+        "desc": "Modelos entrenados y datasets en español, publicados para la comunidad.",
+        "link": "Ver en Hugging Face"
+      },
+      {
+        "title": "Grupo WhatsApp",
+        "desc": "Comunicación interna y coordinación diaria. También para solicitar a un agente la creación de tareas.",
+        "link": "Acceso para miembros"
+      }
+    ]
+  },
+  "proyectos": {
+    "eyebrow": "02 — Accesos y Seguimiento",
+    "h2": "Un solo enlace para todo el equipo",
+    "p": "Guarda solo esta página. Desde aquí accedes al proyecto activo, a los tableros de seguimiento en Nirvai y a los repositorios — sin andar persiguiendo links sueltos. Las vistas de seguimiento son para Open Experts.",
+    "feature_tag": "Proyecto destacado · Finalizado",
+    "feature_title": "GRAIL",
+    "feature_desc": "Nuestro primer desarrollo finalizado y liberado por la comisión. Código abierto, documentado y listo para que la comunidad lo use y contribuya.",
+    "stat_stars": "estrellas",
+    "stat_forks": "forks",
+    "stat_public": "Repositorio público",
+    "feature_code": "Ver en GitHub",
+    "feature_contribute": "Cómo contribuir",
+    "tracking": [
+      {
+        "tag": "Vista maestra · Open Experts",
+        "title": "Lista de proyectos",
+        "desc": "Tablero general con todos los proyectos de la comisión y su estado actual.",
+        "link": "Abrir en Nirvai"
+      },
+      {
+        "tag": "Kanban · Open Experts",
+        "title": "Tareas en curso",
+        "desc": "Vista Kanban con las tareas hijas de cada proyecto, organizadas por estado.",
+        "link": "Abrir tablero"
+      }
+    ],
+    "note": "Cada proyecto admite hasta 2 niveles de tareas (3 contando el proyecto)."
+  },
+  "flujo": {
+    "eyebrow": "03 — Flujo de Trabajo",
+    "h2": "Del proyecto a las tareas",
+    "p": "Cómo se crean y se hacen avanzar las tareas de cada proyecto en Nirvai.",
+    "soon": "Próximamente",
+    "steps": [
+      {
+        "title": "Tarea principal del proyecto",
+        "desc": "La tarea principal de cada proyecto se crea de antemano por el equipo de conducción.",
+        "status": "live"
+      },
+      {
+        "title": "Crear tareas manualmente",
+        "desc": "El Open Expert agrega las tareas a mano, con un máximo de 2 niveles de jerarquía (3 contando el proyecto).",
+        "status": "live"
+      },
+      {
+        "title": "O construirlas con un agente",
+        "desc": "También puede escribir la estructura de tareas en markdown dentro de la página del proyecto y pedir por WhatsApp que un agente las construya. El Líder asigna un agente para crearlas.",
+        "status": "live"
+      },
+      {
+        "title": "Reporte semanal en Nirvai",
+        "desc": "Una vez por semana el Open Expert reporta y actualiza el avance de su proyecto en Nirvai. Sin excepción.",
+        "status": "live"
+      },
+      {
+        "title": "Autogestión con agentes",
+        "desc": "Conexiones externas a la base de datos para que cualquiera gestione su trabajo con agentes cuando lo necesite — como una skill agéntica.",
+        "status": "soon"
+      }
+    ]
+  },
+  "reuniones": {
+    "eyebrow": "04 — Reuniones y Reportes",
+    "h2": "Cadencia y transparencia",
+    "p": "Un ritmo regular de reuniones, con un documento de progreso automático antes de cada una.",
+    "cards": [
+      {
+        "k": "Cadencia",
+        "title": "Reuniones cada 7 a 14 días",
+        "desc": "Instancia oficial donde se revisa el avance de la comisión y se alinean prioridades."
+      },
+      {
+        "k": "Reportes automáticos",
+        "title": "Documento de progreso, 2 días antes",
+        "desc": "Se genera un reporte de avance 2 días antes de cada reunión. El Open Expert debe actualizar su proyecto en Nirvai antes de esa fecha para que su trabajo quede reflejado."
+      }
+    ]
+  },
+  "guias": {
+    "eyebrow": "05 — Guías y Onboarding",
+    "h2": "Empieza a contribuir sin fricción",
+    "p": "Materiales para que cualquier persona se sume y aporte con confianza. Estamos construyendo la documentación completa — esto es lo que viene.",
+    "soon": "En construcción",
+    "live": "Disponible",
+    "items": [
+      {
+        "title": "Onboarding",
+        "desc": "Primeros pasos en la comisión: roles, herramientas y cómo trabajamos el día a día.",
+        "status": "soon"
+      },
+      {
+        "title": "Contribuir en GitHub",
+        "desc": "Flujo de forks, ramas, pull requests y revisión. Guía base ya disponible en el repositorio de GRAIL.",
+        "status": "live",
+        "link": "Ver guía de contribución"
+      },
+      {
+        "title": "Manejo de tareas",
+        "desc": "Cómo estructurar tareas en Nirvai — manualmente o describiéndolas en markdown para que un agente las construya.",
+        "status": "soon"
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Crece con el equipo",
+    "h2": "Súmate a la comisión",
+    "p": "Dos formas de entrar: como parte de la CCHIA o como colaborador externo. Completa el registro y el Líder, junto a los Open Experts, te asigna.",
+    "paths": [
+      {
+        "pk": "Primer nivel · socios CCHIA",
+        "title": "Open Team",
+        "desc": "Acceso exclusivo a la CCHIA como colaborador u Open Expert. Completa el registro del Open Team para sumarte formalmente a un equipo.",
+        "btn": "Registro Open Team →"
+      },
+      {
+        "pk": "Segundo nivel · externos",
+        "title": "Colaboradores Externos",
+        "desc": "Contribuye sin asociarte aún a la CCHIA. Recibe mentoría y participa en proyectos; postula a miembro tras demostrar tu compromiso.",
+        "btn": "Registro externo →"
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Comisión OpenSource LATAM · Cámara Chilena de Inteligencia Artificial. Centro de recursos del equipo.",
+    "col1_title": "Equipo",
+    "col1": { "recursos": "Recursos", "proyectos": "Proyectos", "flujo": "Flujo de trabajo", "reuniones": "Reuniones" },
+    "col2_title": "Enlaces",
+    "col2": { "github": "GitHub", "huggingface": "Hugging Face", "grail": "GRAIL", "join": "Registro" },
+    "copyright": "© 2026 CCHIA · Comisión OpenSource LATAM",
+    "city": "Santiago de Chile",
+    "site": "cchia.cl"
+  }
+}
