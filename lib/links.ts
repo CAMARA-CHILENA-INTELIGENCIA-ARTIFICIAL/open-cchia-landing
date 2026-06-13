@@ -22,6 +22,13 @@ export const LINKS = {
     'https://nirvana-ai.app/guest/database-view/Proyectos-PkgEj_Z6dHvDHT9Yf0AdEeOCtrCpsyf21gO9GM5yZ7U',
   kanban:
     'https://nirvana-ai.app/guest/database-view/Kanban-View-xz_Fbms0dYI4FBxKVZoYHGXBtlLu_WvAL8ddhc6a30Y',
+
+  // Vista pública del equipo (Nirvai) — login con el correo registrado
+  teamPublic:
+    'https://nirvana-ai.app/public/database-view/Lista-Equipo-mnwSFKcUeYWA5Q-2ZXyLlTyQKsQ2k4repCR-0FOGPac',
+
+  // Open Experts — liderar un proyecto en la comunidad
+  openExpertsMail: 'mailto:ben@nirvana-ai.com',
 } as const;
 
 // Repo de GitHub usado para consultar estadísticas (estrellas) vía la API pública.

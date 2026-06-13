@@ -1,6 +1,7 @@
 'use client';
 
 import { useTranslation } from 'react-i18next';
+import { Compass, Mail } from 'lucide-react';
 import Reveal from '@/components/Reveal';
 import LinkCopy from '@/components/LinkCopy';
 import { LINKS } from '@/lib/links';
@@ -37,6 +38,20 @@ export default function CTA() {
                 <LinkCopy url={hrefs[i]} />
               </div>
             ))}
+          </div>
+
+          <div className="experts">
+            <div className="experts-ic">
+              <Compass strokeWidth={2} />
+            </div>
+            <div className="experts-body">
+              <div className="pk">{t('cta.experts.k')}</div>
+              <h4>{t('cta.experts.title')}</h4>
+              <p>{t('cta.experts.desc')}</p>
+            </div>
+            <a className="btn btn-amber" href={LINKS.openExpertsMail}>
+              <Mail /> {t('cta.experts.btn')}
+            </a>
           </div>
         </Reveal>
       </div>

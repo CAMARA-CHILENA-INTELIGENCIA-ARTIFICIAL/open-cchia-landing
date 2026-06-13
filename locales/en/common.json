@@ -6,12 +6,12 @@
   "nav": {
     "recursos": "Resources",
     "proyectos": "Projects",
-    "flujo": "Workflow",
+    "flujo": "How we work",
     "reuniones": "Meetings",
     "guias": "Guides",
     "github": "GitHub",
     "nirvai": "Open Nirvai",
-    "join": "Register →"
+    "join": "Register"
   },
   "hero": {
     "eyebrow": "OpenSource LATAM Commission · Team hub",
@@ -35,9 +35,9 @@
     }
   },
   "recursos": {
-    "eyebrow": "01 — Resources",
+    "eyebrow": "02 — Resources",
     "h2": "Official accounts and channels",
-    "p": "Where the commission's work lives. Public for the community, except the internal channel.",
+    "p": "Where the work lives. Public, except the internal channel.",
     "items": [
       {
         "title": "GitHub Organization",
@@ -57,37 +57,79 @@
     ]
   },
   "proyectos": {
-    "eyebrow": "02 — Access & Tracking",
+    "eyebrow": "01 — Access & projects",
     "h2": "One link for the whole team",
-    "p": "Bookmark just this page. From here you reach the active project, the tracking boards in Nirvai and the repositories — no chasing scattered links. Tracking views are for Open Experts.",
-    "feature_tag": "Featured project · Completed",
-    "feature_title": "GRAIL",
-    "feature_desc": "Our first development completed and released by the commission. Open source, documented and ready for the community to use and contribute to.",
+    "p": "Tasks, Kanban and team in Nirvai. Views are for Open Experts.",
+    "grail_badge": "Completed",
     "stat_stars": "stars",
     "stat_forks": "forks",
-    "stat_public": "Public repository",
     "feature_code": "View on GitHub",
     "feature_contribute": "How to contribute",
     "tracking": [
       {
-        "tag": "Master view · Open Experts",
-        "title": "Project list",
-        "desc": "Overview board with all of the commission's projects and their current status.",
+        "tag": "Task list · Open Experts",
+        "title": "Project & task list",
+        "desc": "Overview board with all of the commission's projects, their tasks and the current status of each.",
         "link": "Open in Nirvai"
       },
       {
         "tag": "Kanban · Open Experts",
         "title": "Tasks in progress",
-        "desc": "Kanban view with each project's child tasks, organized by status.",
+        "desc": "Kanban view with each project's child tasks, organized by status across columns.",
         "link": "Open board"
+      },
+      {
+        "tag": "Team · Public view",
+        "title": "Team list",
+        "desc": "Who's part of the commission. Log in with the email you registered with to get access.",
+        "link": "View team"
       }
     ],
+    "roster_tag": "In progress",
+    "roster_h": "Active projects",
+    "roster_p": "What we're building now and who leads it.",
+    "roster_lead": "Leads",
+    "roster": [
+      {
+        "name": "GRAIL",
+        "desc": "Benchmark and state-of-the-art evaluation of the solution, thanks to the sponsor.",
+        "lead": "Benjamín González Guerrero"
+      },
+      {
+        "name": "Guardrails evaluation",
+        "desc": "Evaluation of guardrails for AI systems.",
+        "lead": "Benjamín González Guerrero"
+      },
+      {
+        "name": "Scholarships scored with GRAIL",
+        "desc": "Evaluation of scholarship projects using GRAIL.",
+        "lead": "Orlando Vázquez"
+      },
+      {
+        "name": "Oncology center chatbot",
+        "desc": "Extract information or build a chatbot for cancer patients.",
+        "lead": "Darío Vázquez"
+      },
+      {
+        "name": "cchia-skills & cchia-mcp",
+        "desc": "Build cchia-mcp together with lucita.app.",
+        "lead": "Darío Vázquez"
+      },
+      {
+        "name": "Search engine · people match",
+        "desc": "Search engine and people matching, involving CCHIA.",
+        "lead": "Teobaldo González"
+      }
+    ],
+    "roster_soon": "More projects and ideas on the way.",
     "note": "Each project supports up to 2 levels of tasks (3 counting the project)."
   },
   "flujo": {
-    "eyebrow": "03 — Workflow",
-    "h2": "From project to tasks",
-    "p": "How each project's tasks get created and moved forward in Nirvai.",
+    "eyebrow": "03 — How we work",
+    "h2": "From project to meeting",
+    "p": "How tasks are born in Nirvai and the meeting cadence.",
+    "work_flow": "Task flow",
+    "work_meet": "Meetings & reports",
     "soon": "Coming soon",
     "steps": [
       {
@@ -135,9 +177,9 @@
     ]
   },
   "guias": {
-    "eyebrow": "05 — Guides & Onboarding",
+    "eyebrow": "04 — Guides",
     "h2": "Start contributing without friction",
-    "p": "Materials so anyone can join and contribute with confidence. We're building the full documentation — here's what's coming.",
+    "p": "Materials to join with confidence. Here's what's coming.",
     "soon": "In progress",
     "live": "Available",
     "items": [
@@ -176,12 +218,18 @@
         "desc": "Contribute without joining CCHIA yet. Receive mentorship and take part in projects; apply for membership after proving your commitment.",
         "btn": "External registration →"
       }
-    ]
+    ],
+    "experts": {
+      "k": "Open Experts · Leadership",
+      "title": "Want to lead a project?",
+      "desc": "We're looking for Open Experts who can lead projects in the community. If you want to take an effort and drive it forward, reach out.",
+      "btn": "Email ben@nirvana-ai.com"
+    }
   },
   "footer": {
     "tagline": "OpenSource LATAM Commission · Chilean Chamber of Artificial Intelligence. Team resource hub.",
     "col1_title": "Team",
-    "col1": { "recursos": "Resources", "proyectos": "Projects", "flujo": "Workflow", "reuniones": "Meetings" },
+    "col1": { "recursos": "Resources", "proyectos": "Projects", "flujo": "How we work", "reuniones": "Meetings", "unirse": "Register" },
     "col2_title": "Links",
     "col2": { "github": "GitHub", "huggingface": "Hugging Face", "grail": "GRAIL", "join": "Register" },
     "copyright": "© 2026 CCHIA · OpenSource LATAM Commission",

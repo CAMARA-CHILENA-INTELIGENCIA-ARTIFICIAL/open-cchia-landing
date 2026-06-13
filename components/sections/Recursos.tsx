@@ -16,8 +16,10 @@ export default function Recursos() {
     <section className="sec" id="recursos">
       <div className="wrap">
         <Reveal className="sec-head">
-          <span className="eyebrow">{t('recursos.eyebrow')}</span>
-          <h2>{t('recursos.h2')}</h2>
+          <div className="sh-l">
+            <span className="eyebrow">{t('recursos.eyebrow')}</span>
+            <h2>{t('recursos.h2')}</h2>
+          </div>
           <p>{t('recursos.p')}</p>
         </Reveal>
         <div className="infra">

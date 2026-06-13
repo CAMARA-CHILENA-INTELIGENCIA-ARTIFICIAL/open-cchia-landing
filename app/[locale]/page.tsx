@@ -3,7 +3,6 @@ import Hero from '@/components/sections/Hero';
 import Recursos from '@/components/sections/Recursos';
 import Proyectos from '@/components/sections/Proyectos';
 import Flujo from '@/components/sections/Flujo';
-import Reuniones from '@/components/sections/Reuniones';
 import Guias from '@/components/sections/Guias';
 import CTA from '@/components/sections/CTA';
 import Footer from '@/components/sections/Footer';
@@ -18,17 +17,16 @@ export default function Home() {
       <Nav />
       <span id="top" />
       <Hero />
-      <CTA />
-      <Divider />
-      <Recursos />
       <Divider />
       <Proyectos />
       <Divider />
+      <Recursos />
+      <Divider />
       <Flujo />
       <Divider />
-      <Reuniones />
-      <Divider />
       <Guias />
+      <Divider />
+      <CTA />
       <Footer />
     </>
   );

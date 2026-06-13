@@ -18,10 +18,10 @@ export default function Footer() {
           <div className="foot-cols">
             <div className="fcol">
               <h5>{t('footer.col1_title')}</h5>
-              <a href="#recursos">{t('footer.col1.recursos')}</a>
               <a href="#proyectos">{t('footer.col1.proyectos')}</a>
+              <a href="#recursos">{t('footer.col1.recursos')}</a>
               <a href="#flujo">{t('footer.col1.flujo')}</a>
-              <a href="#reuniones">{t('footer.col1.reuniones')}</a>
+              <a href="#unirse">{t('footer.col1.unirse')}</a>
             </div>
             <div className="fcol">
               <h5>{t('footer.col2_title')}</h5>

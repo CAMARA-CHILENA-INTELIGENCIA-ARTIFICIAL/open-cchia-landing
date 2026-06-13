@@ -23,8 +23,10 @@ export default function Guias() {
     <section className="sec" id="guias">
       <div className="wrap">
         <Reveal className="sec-head">
-          <span className="eyebrow">{t('guias.eyebrow')}</span>
-          <h2>{t('guias.h2')}</h2>
+          <div className="sh-l">
+            <span className="eyebrow">{t('guias.eyebrow')}</span>
+            <h2>{t('guias.h2')}</h2>
+          </div>
           <p>{t('guias.p')}</p>
         </Reveal>
         <div className="guides">

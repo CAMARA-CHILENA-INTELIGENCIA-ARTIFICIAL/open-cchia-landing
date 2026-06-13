@@ -6,12 +6,12 @@
   "nav": {
     "recursos": "Recursos",
     "proyectos": "Proyectos",
-    "flujo": "Flujo de trabajo",
+    "flujo": "Cómo trabajamos",
     "reuniones": "Reuniones",
     "guias": "Guías",
     "github": "GitHub",
     "nirvai": "Abrir Nirvai",
-    "join": "Registro →"
+    "join": "Registro"
   },
   "hero": {
     "eyebrow": "Comisión OpenSource LATAM · Centro del equipo",
@@ -35,9 +35,9 @@
     }
   },
   "recursos": {
-    "eyebrow": "01 — Recursos",
+    "eyebrow": "02 — Recursos",
     "h2": "Cuentas y canales oficiales",
-    "p": "Los espacios donde vive el trabajo de la comisión. Públicos para la comunidad, salvo el canal interno.",
+    "p": "Dónde vive el trabajo. Público, salvo el canal interno.",
     "items": [
       {
         "title": "GitHub Organization",
@@ -57,37 +57,79 @@
     ]
   },
   "proyectos": {
-    "eyebrow": "02 — Accesos y Seguimiento",
+    "eyebrow": "01 — Accesos y proyectos",
     "h2": "Un solo enlace para todo el equipo",
-    "p": "Guarda solo esta página. Desde aquí accedes al proyecto activo, a los tableros de seguimiento en Nirvai y a los repositorios — sin andar persiguiendo links sueltos. Las vistas de seguimiento son para Open Experts.",
-    "feature_tag": "Proyecto destacado · Finalizado",
-    "feature_title": "GRAIL",
-    "feature_desc": "Nuestro primer desarrollo finalizado y liberado por la comisión. Código abierto, documentado y listo para que la comunidad lo use y contribuya.",
+    "p": "Tareas, Kanban y equipo en Nirvai. Las vistas son para Open Experts.",
+    "grail_badge": "Finalizado",
     "stat_stars": "estrellas",
     "stat_forks": "forks",
-    "stat_public": "Repositorio público",
     "feature_code": "Ver en GitHub",
     "feature_contribute": "Cómo contribuir",
     "tracking": [
       {
-        "tag": "Vista maestra · Open Experts",
-        "title": "Lista de proyectos",
-        "desc": "Tablero general con todos los proyectos de la comisión y su estado actual.",
+        "tag": "Lista de tareas · Open Experts",
+        "title": "Lista de proyectos y tareas",
+        "desc": "Tablero general con todos los proyectos de la comisión, sus tareas y el estado actual de cada uno.",
         "link": "Abrir en Nirvai"
       },
       {
         "tag": "Kanban · Open Experts",
         "title": "Tareas en curso",
-        "desc": "Vista Kanban con las tareas hijas de cada proyecto, organizadas por estado.",
+        "desc": "Vista Kanban con las tareas hijas de cada proyecto, organizadas por estado en columnas.",
         "link": "Abrir tablero"
+      },
+      {
+        "tag": "Equipo · Vista pública",
+        "title": "Lista del equipo",
+        "desc": "Quiénes integran la comisión. Inicia sesión con el correo con el que te registraste para acceder.",
+        "link": "Ver equipo"
       }
     ],
+    "roster_tag": "En curso",
+    "roster_h": "Proyectos activos",
+    "roster_p": "Lo que construimos ahora y quién lidera.",
+    "roster_lead": "Lidera",
+    "roster": [
+      {
+        "name": "GRAIL",
+        "desc": "Benchmark y evaluación del estado del arte de la solución, gracias al sponsor.",
+        "lead": "Benjamín González Guerrero"
+      },
+      {
+        "name": "Evaluación de guardrails",
+        "desc": "Evaluación de guardrails para sistemas de IA.",
+        "lead": "Benjamín González Guerrero"
+      },
+      {
+        "name": "Becas evaluadas con GRAIL",
+        "desc": "Evaluación de proyectos de becas usando GRAIL.",
+        "lead": "Orlando Vázquez"
+      },
+      {
+        "name": "Chatbot centro oncológico",
+        "desc": "Extraer información o crear un chatbot para pacientes con cáncer.",
+        "lead": "Darío Vázquez"
+      },
+      {
+        "name": "cchia-skills y cchia-mcp",
+        "desc": "Crear cchia-mcp junto a lucita.app.",
+        "lead": "Darío Vázquez"
+      },
+      {
+        "name": "Motor de búsqueda · match de personas",
+        "desc": "Motor de búsqueda y match de personas, involucrando a la CCHIA.",
+        "lead": "Teobaldo González"
+      }
+    ],
+    "roster_soon": "Más proyectos e ideas en camino.",
     "note": "Cada proyecto admite hasta 2 niveles de tareas (3 contando el proyecto)."
   },
   "flujo": {
-    "eyebrow": "03 — Flujo de Trabajo",
-    "h2": "Del proyecto a las tareas",
-    "p": "Cómo se crean y se hacen avanzar las tareas de cada proyecto en Nirvai.",
+    "eyebrow": "03 — Cómo trabajamos",
+    "h2": "Del proyecto a la reunión",
+    "p": "Cómo nacen las tareas en Nirvai y el ritmo de reuniones.",
+    "work_flow": "Flujo de tareas",
+    "work_meet": "Reuniones y reportes",
     "soon": "Próximamente",
     "steps": [
       {
@@ -135,9 +177,9 @@
     ]
   },
   "guias": {
-    "eyebrow": "05 — Guías y Onboarding",
+    "eyebrow": "04 — Guías",
     "h2": "Empieza a contribuir sin fricción",
-    "p": "Materiales para que cualquier persona se sume y aporte con confianza. Estamos construyendo la documentación completa — esto es lo que viene.",
+    "p": "Materiales para sumarte con confianza. Esto es lo que viene.",
     "soon": "En construcción",
     "live": "Disponible",
     "items": [
@@ -176,12 +218,18 @@
         "desc": "Contribuye sin asociarte aún a la CCHIA. Recibe mentoría y participa en proyectos; postula a miembro tras demostrar tu compromiso.",
         "btn": "Registro externo →"
       }
-    ]
+    ],
+    "experts": {
+      "k": "Open Experts · Liderazgo",
+      "title": "¿Quieres liderar un proyecto?",
+      "desc": "Buscamos Open Experts que puedan liderar proyectos en la comunidad. Si quieres tomar un frente y conducirlo, escríbenos.",
+      "btn": "Escribir a ben@nirvana-ai.com"
+    }
   },
   "footer": {
     "tagline": "Comisión OpenSource LATAM · Cámara Chilena de Inteligencia Artificial. Centro de recursos del equipo.",
     "col1_title": "Equipo",
-    "col1": { "recursos": "Recursos", "proyectos": "Proyectos", "flujo": "Flujo de trabajo", "reuniones": "Reuniones" },
+    "col1": { "recursos": "Recursos", "proyectos": "Proyectos", "flujo": "Cómo trabajamos", "reuniones": "Reuniones", "unirse": "Registro" },
     "col2_title": "Enlaces",
     "col2": { "github": "GitHub", "huggingface": "Hugging Face", "grail": "GRAIL", "join": "Registro" },
     "copyright": "© 2026 CCHIA · Comisión OpenSource LATAM",

@@ -29,11 +29,11 @@ export default function Nav() {
           </span>
         </a>
         <div className="nav-links">
-          <a href="#recursos">{t('nav.recursos')}</a>
           <a href="#proyectos">{t('nav.proyectos')}</a>
+          <a href="#recursos">{t('nav.recursos')}</a>
           <a href="#flujo">{t('nav.flujo')}</a>
-          <a href="#reuniones">{t('nav.reuniones')}</a>
           <a href="#guias">{t('nav.guias')}</a>
+          <a href="#unirse">{t('nav.join')}</a>
         </div>
         <div className="nav-cta">
           <LanguageSwitcher />
