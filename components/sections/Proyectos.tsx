@@ -15,7 +15,9 @@ import {
   ShieldCheck,
   GraduationCap,
   Stethoscope,
+  Blocks,
   Plug,
+  Cable,
   Search,
 } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
@@ -24,7 +26,13 @@ import { LINKS, GRAIL_REPO } from '@/lib/links';
 import { getRepoStats, type RepoStats } from '@/lib/github';
 
 type Track = { tag: string; title: string; desc: string; link: string };
-type Roster = { name: string; desc: string; lead: string };
+type Roster = {
+  name: string;
+  desc: string;
+  lead: string;
+  badge?: string;
+  badge_kind?: 'live' | 'soon';
+};
 
 export default function Proyectos() {
   const { t } = useTranslation();
@@ -49,7 +57,9 @@ export default function Proyectos() {
     ShieldCheck,
     GraduationCap,
     Stethoscope,
+    Blocks,
     Plug,
+    Cable,
     Search,
   ];
 
@@ -112,10 +122,20 @@ export default function Proyectos() {
                 </div>
                 <div className="rname">
                   <h5>{r.name}</h5>
-                  {isGrail && (
+                  {isGrail ? (
                     <span className="badge badge-live">
                       {t('proyectos.grail_badge')}
                     </span>
+                  ) : (
+                    r.badge && (
+                      <span
+                        className={`badge ${
+                          r.badge_kind === 'soon' ? 'badge-soon' : 'badge-live'
+                        }`}
+                      >
+                        {r.badge}
+                      </span>
+                    )
                   )}
                 </div>
                 <p>{r.desc}</p>

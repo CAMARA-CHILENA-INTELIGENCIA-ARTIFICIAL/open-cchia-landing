@@ -775,8 +775,8 @@ section {
 /* ---------- infra ---------- */
 .infra {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 18px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
   margin-top: 8px;
 }
 .inf {

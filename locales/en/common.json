@@ -48,11 +48,6 @@
         "title": "Hugging Face",
         "desc": "Trained models and Spanish datasets, released for the community.",
         "link": "View on Hugging Face"
-      },
-      {
-        "title": "WhatsApp Group",
-        "desc": "Internal communication and daily coordination. Also where you ask an agent to build tasks.",
-        "link": "Members only"
       }
     ]
   },
@@ -111,9 +106,25 @@
         "lead": "Darío Vázquez"
       },
       {
-        "name": "cchia-skills & cchia-mcp",
-        "desc": "Build cchia-mcp together with lucita.app.",
-        "lead": "Darío Vázquez"
+        "name": "cchia-skills",
+        "desc": "The commission's collection of agentic skills.",
+        "lead": "Benjamín González Guerrero",
+        "badge": "Available",
+        "badge_kind": "live"
+      },
+      {
+        "name": "cchia-mcp",
+        "desc": "The commission's MCP server.",
+        "lead": "Benjamín González Guerrero",
+        "badge": "Coming soon",
+        "badge_kind": "soon"
+      },
+      {
+        "name": "cchia-mcp-lucitaapp",
+        "desc": "MCP server built together with lucita.app.",
+        "lead": "Darío Vázquez",
+        "badge": "Coming soon",
+        "badge_kind": "soon"
       },
       {
         "name": "Search engine · people match",
